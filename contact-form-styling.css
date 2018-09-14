@@ -1,0 +1,122 @@
+
+
+
+
+@media screen and (max-width:600px){
+    
+  .contact {
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+      
+      border-color:gray;
+      
+      border-style: dotted;
+}
+    .-face { 
+        max-width:82%;
+        width: 450px;
+        padding: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        position: relative; top: 0px;left:20px;
+    border-style: dotted;
+    border-color: gray;}
+}
+
+
+.send {
+    background-color: darkgrey;
+    border: none;
+
+}
+
+label {
+    font-family: sans-serif;
+    font-style: normal
+}
+
+input {
+    display: inline-block;
+    width: 130px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    height: 40px;
+    width: 300px;
+   
+    margin-bottom: 20px;
+
+    border: 1px solid grey;
+
+
+}
+
+
+@media screen and (min-width:600px){
+    
+    .contact{
+        width: 315px;
+        position: relative;
+       padding: 20px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        left: 30px;
+        top: 30px;
+        
+        
+         border-color:gray;
+      
+      border-style: dotted;
+    }
+    
+    .-face {border-style: dotted;
+    border-color: gray;
+        width: 315px;
+        position: relative; left: 400px; top: -700px;
+    
+    padding: 10px;
+    
+    width: 300px;
+    text-align: left;
+   
+    
+    
+}
+}
+
+
+
+label[for="message"] {
+    vertical-align: top;
+}
+
+textarea {
+    width: 300px;
+    padding: 0px;
+    margin-bottom: 20px;
+
+    border: 1px solid grey;
+    height: 140px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    background-color: antiquewhite;
+
+}
+
+input[type="submit"] {
+    font-size: 24px
+}
+
+::placeholder {
+    text-align: center;
+    color: darkgrey
+}
